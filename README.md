@@ -75,7 +75,7 @@ The output of the program is a space-delimited file with the following columns.
 4. Rearrangement portion of the rearrangement pattern string
 5. Genome string describing the karyotype of the simulated genome
 
-## 1. Detailed history of a simulated genome
+### 1. Detailed history of a simulated genome
 This is the simple history, but each individual rearrangement is appended by an
 index indicating the order in which it was generated. The two breakpoints of a
 rearrangement are enumerated in a given somatic genome in a defined order,
@@ -83,20 +83,20 @@ so detailed history of a simulated genome enable the precise reconstruction of
 the breakpoint positions of each rearrangement to generate a given simulated
 genome. 
 
-## 2. Simple history of a simulated genome
+### 2. Simple history of a simulated genome
 Same as detailed history, but without the indices. 
 
-## 3. Allelic copy number portion of the normalised rearrangement pattern string
+### 3. Allelic copy number portion of the normalised rearrangement pattern string
 Chromosomes are semicolon-delimited. Segments within chromosomes are delimited
 by forward slashes ('/'). When run in diploid mode, maternal and paternal copy
 number of each segment are comma-separated. 
 
-## 4. Rearrangement portion of the rearrangement pattern string
+### 4. Rearrangement portion of the rearrangement pattern string
 Segments above are identified using a zero-based index in the order in which
 they appear. Rearrangements are forward slash-separated and the low and high
 end of each rearrangement is separated by a comma. 
 
-## 5. Genome string describing the karyotype of the simulated genome
+### 5. Genome string describing the karyotype of the simulated genome
 The normalised genome string of the current derivative chromosome. Every
 individual *haploid* chromosome is described within a pair of curly brackets.
 That is, there will be two chromosomes in a wild type genome containing a
