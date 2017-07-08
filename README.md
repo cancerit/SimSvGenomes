@@ -150,6 +150,17 @@ thus significantly increase the space in which subsequent breakpoints can
 occur. Whole-genome duplication events are limited to one per history
 because of the same reason. 
 
+The algorithms behind this program are described in some detail in the
+PCAWG-6 SV mechanisms manuscript. Feel free to contact me if you need more
+information. 
+
+
+Citation
+========
+
+If you would like to cite this work, please cite the PCAWG-6 SV mechanisms
+manuscript. Coming soon (hopefully...)
+
 
 LICENCE
 ========
